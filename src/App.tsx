@@ -23,7 +23,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [error, setError] = useState('')
 
-  const BACKEND_URL = 'https://your-railway-app-name.up.railway.app'
+  const BACKEND_URL = 'https://newsaggregatorbackend-production.up.railway.app'
 
   const fetchNews = async () => {
     if (!search.trim()) {
