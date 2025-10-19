@@ -23,7 +23,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [error, setError] = useState('')
 
-  const BACKEND_URL = 'https://newsaggregatorbackend-production.up.railway.app'
+  const BACKEND_URL = 'https://news-aggregator-backend-ojen.onrender.com'
 
   const fetchNews = async () => {
   console.log('BACKEND_URL:', BACKEND_URL)
