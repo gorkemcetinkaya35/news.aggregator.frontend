@@ -26,10 +26,13 @@ function App() {
   const BACKEND_URL = 'https://newsaggregatorbackend-production.up.railway.app'
 
   const fetchNews = async () => {
-    if (!search.trim()) {
-      setError('Please enter a search term')
-      return
-    }
+  console.log('BACKEND_URL:', BACKEND_URL)
+  console.log('Fetching from:', `${BACKEND_URL}/api/news`)
+  
+  if (!search.trim()) {
+    setError('Please enter a search term')
+    return
+  }
 
     setError('')
     setLoading(true)
