@@ -14,7 +14,8 @@
     "strictFunctionTypes": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true
   },
   "include": ["src"]
 }
