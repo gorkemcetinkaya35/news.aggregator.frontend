@@ -23,7 +23,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [error, setError] = useState('')
 
-  const BACKEND_URL = 'http://localhost:5000'
+  const BACKEND_URL = 'https://your-railway-app-name.up.railway.app'
 
   const fetchNews = async () => {
     if (!search.trim()) {
